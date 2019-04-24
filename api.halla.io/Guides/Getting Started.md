@@ -20,8 +20,8 @@ Before you can make calls to this API, you need to enable it in the Cloud Platfo
 3. You can now call the API using the API key you created!
 
 ### Creating a Service User
-1. Navagate to the /serviceUsers route.
-2. Use your newly created API key and Admin User key (email: henry@halla.io if you do not have said key) to create a Service User.
+1. Navagate to the **/serviceUsers** route.
+2. Use your newly created **API key** and **Admin User key** (email: henry@halla.io if you do not have said key) to create a Service User.
 
 ### Using the API
 Browse the reference section of this site to see examples of what you can do with this API and how to use it. You can use the **Try this API** tool on the right side of an API method page to generate sample requests.
