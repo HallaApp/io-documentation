@@ -5,7 +5,6 @@ There are two steps to using Halla I/O's services.
 
 ### Before create your Google Cloud API key
 1. Create a new [Cloud Platform project](https://console.developers.google.com/projectcreate).
-2. [Enable billing](https://cloud.google.com/billing/docs/how-to/modify-project#enable_billing_for_a_project) for your project.
 
 ### Creating an API key
 1. [Create an API key](https://console.developers.google.com/apis/credentials) in the Google APIs Console.
