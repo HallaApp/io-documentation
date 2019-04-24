@@ -1,8 +1,10 @@
 # Getting Started
----
+There are two steps to using Halla I/O's services.
+1. Create a Google Cloud API key
+2. Create a Service User
 
-### Before you begin
-1. Create a news [Cloud Platform project](https://console.developers.google.com/projectcreate).
+### Before create your Google Cloud API key
+1. Create a new [Cloud Platform project](https://console.developers.google.com/projectcreate).
 2. [Enable billing](https://cloud.google.com/billing/docs/how-to/modify-project#enable_billing_for_a_project) for your project.
 
 ### Creating an API key
@@ -12,12 +14,14 @@
 4. Click **Close**.
 
 ### Enable the API
-
 Before you can make calls to this API, you need to enable it in the Cloud Platform project you created.
 1. [View this API](https://console.developers.google.com/apis/api/{{apiHost}}/overview) in the Google APIs Console.
 2. Click the **Enable** button, then wait for it to complete.
 3. You can now call the API using the API key you created!
 
-### Using the API
+### Creating a Service User
+1. Navagate to the /serviceUsers route.
+2. Use your newly created API key and Admin User key (email: henry@halla.io if you do not have said key) to create a Service User.
 
-Browse the reference section of this site to see examples of what you can do with this API and how to use it. You can use the **Try this API** tool on the right side of an API method page to generate a sample request.
+### Using the API
+Browse the reference section of this site to see examples of what you can do with this API and how to use it. You can use the **Try this API** tool on the right side of an API method page to generate sample requests.
